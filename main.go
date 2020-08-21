@@ -13,5 +13,5 @@ func main() {
 
 	e.GET("/info", service.Gethwinfo)
 
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":9090"))
 }
